@@ -1,9 +1,8 @@
 export const skills = [
-    "JavaScript",
-    "React",
-    "Express",
-    "Node.js",
-    "Git",
-    "MongoDB"
-    
-]
+  'JavaScript',
+  'React',
+  'Express',
+  'Node.js',
+  'Git',
+  'MongoDB',
+];
