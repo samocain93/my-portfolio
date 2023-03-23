@@ -5,7 +5,7 @@ import Skills from './components/Skills'
 
 function App() {
   return (
-  <main className="text-gray-400 bg-slate-900 body-font">
+  <main className="text-gray-400 bg-slate-900 body-font flex flex-col">
     <About />
     <Projects />
     <Skills />
