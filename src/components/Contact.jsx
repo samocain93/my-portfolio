@@ -1,7 +1,30 @@
-import React from 'react';
+import React, { useState } from 'react';
 import Iframe from 'react-iframe';
 
 export default function Contact() {
+  const [name, setName] = useState('');
+  const [email, setEmail] = useState('');
+  const [message, setMessage] = useState('');
+
+  function encode(data) {
+    return Object.keys(data)
+      .map((key) => {
+        encodeURIComponent(key) + '=' + encodeURIComponent(data[key]);
+      })
+      .join('&');
+  }
+
+  function handleSubmit(e) {
+    e.preventDefault();
+    fetch('/', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
+      body: encode({ 'form-name': 'contact', name, email, message }),
+    })
+      .then(() => alert('Thank you! Message sent.'))
+      .catch((error) => alert(error));
+  }
+
   return (
     <section id='contact' className='relative'>
       <div className='container px-5 py-10 mx-auto flex sm:flex-nowrap flex-wrap'>
