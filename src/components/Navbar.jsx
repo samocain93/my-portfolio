@@ -1,5 +1,7 @@
 import React from 'react';
 import { HomeIcon, ArrowRightIcon } from '@heroicons/react/solid';
+import {BsFillMoonStarsFill} from 'react-icons/bs';
+
 
 export default function Navbar() {
   return (
@@ -11,12 +13,13 @@ export default function Navbar() {
           </a>
         </a>
         <nav className='md:mr-auto md:ml-4 md:py-1 md:border-l md:border-gray-700 flex flex-wrap items-center text-base justify-center'>
-          <a href='#projects' className='mr-5 ml-5 hover:text-white'>
+          <a href='#projects' className='mr-5 ml-5 hover:text-white hover:scale-105'>
             Projects
           </a>
-          <a href='#skills' className='mr-5 hover:text-white'>
+          <a href='#skills' className='mr-5 hover:text-white hover:scale-105'>
             Skills
           </a>
+          <li className="inline-flex hover:cursor-pointer hover:text-amber-200 hover:scale-105"><BsFillMoonStarsFill /></li>
         </nav>
         <a
           href='#contact'
