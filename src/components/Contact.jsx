@@ -43,9 +43,9 @@ export default function Contact() {
           <div className='bg-gray-900 relative flex flex-wrap py-6 rounded shadow-md'>
             <div className='lg:w-1/2 px-6'>
               <h2 className='title-font font-semibold text-white tracking-widest text-xs'>
-                ADDRESS
+                LOCATION
               </h2>
-              <p className='mt-1'>S 1st St Austin, TX 78704</p>
+              <p className='mt-1'>Austin, TX</p>
             </div>
             <div className='lg:w-1/2 px-6 mt-4 lg:mt-0'>
               <h2 className='title-font font-semibold text-white tracking-widest text-xs'>
@@ -55,9 +55,9 @@ export default function Contact() {
                 samocain93@gmail.com
               </a>
               <h2 className='title-font font-semibold text-white tracking-widest text-xs mt-4'>
-                PHONE
+                WORK PREFERENCES
               </h2>
-              <p className='leading-relaxed'>850-559-4306</p>
+              <p className='leading-relaxed'>Hybrid or Remote</p>
             </div>
           </div>
         </div>
@@ -99,10 +99,7 @@ export default function Contact() {
             />
           </div>
           <div className='relative mb-4'>
-            <label
-              htmlFor='message'
-              className='leading-7 text-sm text-gray-400'
-            >
+            <label htmlFor='message' className='leading-7 text-sm text-white'>
               Message
             </label>
             <textarea

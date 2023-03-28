@@ -8,7 +8,7 @@ import Navbar from './components/Navbar';
 
 function App() {
   return (
-    <main className='text-gray-400 dark:bg-slate-900 body-font flex flex-col'>
+    <main className='text-gray-400 dark:bg-slate-700 body-font flex flex-col scroll-smooth'>
       <Navbar />
       <About />
       <Projects />
