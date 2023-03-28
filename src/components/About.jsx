@@ -13,7 +13,10 @@ export default function About() {
               className='justify-center items-center h-24 object-center'
             /> */}
             <br className='hidden lg:inline-block' /> I love to build amazing
-            apps.
+            <span className='text-green-400'> things</span>.
+            <br />
+            Let's make something great{' '}
+            <span className='text-green-400'> together</span>.
           </h1>
           <p className='mb-8 leading-relaxed'>
             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui
