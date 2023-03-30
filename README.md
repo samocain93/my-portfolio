@@ -34,11 +34,11 @@ This was my first time using React in creating a website, and my goal was to des
 ## Features
 
 1. Simple navbar with links to sections of the page and contact form (will be adding a light/dark mode feature as well)
-2. Some interactive icon elements 
+2. Interactive icon elements
 3. Project section with image screenshots and overlays of a brief description of each project whereby clicking will take you to the deployed page
-4. Simple and clear list of skills and languages 
-5. Resume section clearly displaying my resume. This also allows you to click the resume title heading, which then opens up a PDF file of the resume for the user to view
-6. Contact submission form to take questions or messages and send an email to me directly 
+4. Simple and clear list of skills and languages
+5. Resume section with a clear view of both pages of my resume, as well as a clickable heading title which opens a new window containing a viewable PDF format version of the resume
+6. Contact submission form to take questions or messages and send an email to me directly
 
 ## Usage
 
