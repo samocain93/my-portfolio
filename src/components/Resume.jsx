@@ -5,12 +5,13 @@ import resume1 from '../assets/images/resume1.png';
 import resume2 from '../assets/images/resume2.png';
 import resume from '../assets/pdf/resume.pdf'
 
+
 export default function Resume() {
   return (
     <section id='resume' className='text-gray-400 bg-gray-900 body-font'>
       <div className='container px-5 py-6 mx-auto text-center lg-px-40'>
         <div className='flex flex-col mb-20'>
-          <AcademicCapIcon className='mx-auto inline-block w-10 mb-4' />
+          <AcademicCapIcon className='mx-auto inline-block w-10 mb-4 hover:text-white'/>
           {/* <a href="https://docs.google.com/document/d/1rTCYJWahFMkvd4iSxxIYdGw0Q3Q_lmC7p45AIldxz94/edit?usp=sharing" target="_blank"> */}
           <a href={resume} target="_blank">
           <h1 className='sm:text-4xl text-3xl font-medium  title-font mb-4 text-white hover:text-green-400'>

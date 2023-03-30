@@ -6,6 +6,7 @@ import Resume from './components/Resume';
 import Contact from './components/Contact';
 import Navbar from './components/Navbar';
 import Footer from './components/Footer'
+import './index.css'
 
 function App() {
   return (
