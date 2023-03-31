@@ -31,6 +31,8 @@ This was my first time using React in creating a website, and my goal was to des
 
 ## Deployed Application
 
+Click Here => { https://samocain.dev/ }
+
 ## Features
 
 1. Simple navbar with links to sections of the page and contact form (will be adding a light/dark mode feature as well)
@@ -42,11 +44,11 @@ This was my first time using React in creating a website, and my goal was to des
 
 ## Usage
 
-![Screenshot 1](./src//assets/images/screenshot-1.png)
-![Screenshot 1](./src//assets/images/screenshot-2.png)
-![Screenshot 1](./src//assets/images/screenshot-3.png)
-![Screenshot 1](./src//assets/images/screenshot-4.png)
-![Screenshot 1](./src//assets/images/screenshot-5.png)
+![Screenshot 1](public/images/screenshot-1.png)
+![Screenshot 1](public/images/screenshot-2.png)
+![Screenshot 1](public/images/screenshot-3.png)
+![Screenshot 1](public/images/screenshot-4.png)
+![Screenshot 1](public/images/screenshot-5.png)
 
 ## Questions
 
