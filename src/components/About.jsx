@@ -15,12 +15,12 @@ export default function About() {
           </h1>
           <p className='mb-8 leading-relaxed'>
             I'm a full stack developer looking to take my career to the next
-            step. I'm passionate about learning, and always seeking to
-            grow and expand my skillset. As a recent graduate of{' '}
+            step. I'm passionate about learning, and always seeking to grow and
+            expand my skillset. As a recent graduate of{' '}
             <a
               className='text-white'
               href='https://techbootcamps.utexas.edu/coding/'
-              target="_blank"
+              target='_blank'
             >
               The Coding Bootcamp at UT Austin
             </a>
@@ -46,7 +46,7 @@ export default function About() {
           <img
             className='object-cover object-center rounded-full w-auto shadow-xl border-opacity-80 drop-shadow-lg'
             alt='logo'
-            src='./src/assets/images/logo.jpeg'
+            src='/images/logo.jpeg'
           />
         </div>
       </div>

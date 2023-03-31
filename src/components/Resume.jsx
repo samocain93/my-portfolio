@@ -1,9 +1,9 @@
 import React from 'react';
 import { AcademicCapIcon } from '@heroicons/react/solid';
 import { Document, Page } from 'react-pdf';
-// import resume1 from '../public/assets/images/resume1.png';
-// import resume2 from '.../assets/images/resume2.png';
-// import resume from './assets/pdf/resume.pdf';
+import resume1 from '/images/resume1.png';
+import resume2 from '/images/resume2.png';
+import resume from '/pdf/resume.pdf';
 
 export default function Resume() {
   return (
@@ -21,12 +21,12 @@ export default function Resume() {
           <div className='flex flex-row flex-wrap mx-auto justify-center'>
             <img
               alt='resume image'
-              src="../public/assets/images/resume1.png"
+              src={resume1}
               className='mb-0 justify-center lg:max-w-xl max-h-full p-3 md:max-w-screen-md'
             />
             <img
               alt='second page of resume'
-              src="../public/assets/images/resume2.png"
+              src={resume2}
               className='mb-0 justify-center lg:max-w-xl max-h-full p-3 md:max-w-screen-md'
             />
           </div>
