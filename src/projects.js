@@ -4,7 +4,7 @@ export const projects = [
     subtitle: 'Next.js 13 Full Stack Application',
     description:
       'A modern web application that allowers users to create and share modern AI prompts with the world',
-    image: 'public/images/promptopia-3.png',
+    image: '/images/promptopia-3.png',
     link: 'https://promptopia-g6i9nn04q-sam-ocains-projects.vercel.app/',
   },
   {
