@@ -1,11 +1,11 @@
 export const projects = [
   {
-    title: 'Characterize This!',
-    subtitle: 'MVC Full Stack Application',
+    title: 'Promptopia',
+    subtitle: 'Next.js 13 Full Stack Application',
     description:
-      'A character generator application based on popular fantasy game models',
-    image: '/images/char-generator-new.png',
-    link: 'https://characterize-this.herokuapp.com',
+      'A modern web application that allowers users to create and share modern AI prompts with the world',
+    image: 'public/images/promptopia-3.png',
+    link: 'https://promptopia-g6i9nn04q-sam-ocains-projects.vercel.app/',
   },
   {
     title: 'Dog Facts',

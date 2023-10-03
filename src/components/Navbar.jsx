@@ -1,6 +1,6 @@
 import React from 'react';
 import { HomeIcon, ArrowRightIcon } from '@heroicons/react/solid';
-import {BsFillMoonStarsFill} from 'react-icons/bs';
+// import {BsFillMoonStarsFill} from 'react-icons/bs';
 
 
 export default function Navbar() {
@@ -19,7 +19,7 @@ export default function Navbar() {
           <a href='#skills' className='mr-5 hover:text-white hover:scale-105'>
             Skills
           </a>
-          <li className="inline-flex hover:cursor-pointer hover:text-amber-200 hover:scale-105"><BsFillMoonStarsFill /></li>
+          {/* <li className="inline-flex hover:cursor-pointer hover:text-amber-200 hover:scale-105"><BsFillMoonStarsFill /></li> */}
         </nav>
         <a
           href='#contact'
